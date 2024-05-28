@@ -11,3 +11,9 @@ IntelliJ Datagrip Postgres verbinden
 DAtenbank erstellen, Namen speichern
 
 https://hackernoon.com/using-postgres-effectively-in-spring-boot-applications
+
+konfiguration Datenbank in application.properties
+
+Repository
+Service erstellen
+GetAll Methode von Controller bis Datenbank
