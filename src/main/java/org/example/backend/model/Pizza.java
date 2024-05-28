@@ -1,5 +1,16 @@
 package org.example.backend.model;
 
-public record Pizza(String name,
-                    Double price) {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Entity
+@Data
+public class Pizza {
+    @Id
+    @GeneratedValue
+    Long id;
+    String name;
+    Double price;
 }
