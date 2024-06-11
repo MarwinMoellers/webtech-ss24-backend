@@ -19,6 +19,12 @@ Service erstellen
 GetAll Methode von Controller bis Datenbank
 
 ## Notizen 10.6.24
+
+### Test Konfiguration
+H2 Dependency für Test hinzufügen
+H2 in test application properties konfigurieren.
+
+### Deployment mit Datenbank
 appication-prod.properties
 
 Environment variablen in in prod properties verwenden db url und passwort
