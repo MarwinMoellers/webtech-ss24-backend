@@ -5,7 +5,7 @@
 Spring Data: https://spring.io/projects/spring-data
 
 Postgres Docker: https://hub.docker.com/_/postgres
-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432-d postgres
+docker run --name <db-name> -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
 
 IntelliJ Datagrip Postgres verbinden
 DAtenbank erstellen, Namen speichern
@@ -17,3 +17,12 @@ konfiguration Datenbank in application.properties
 Repository
 Service erstellen
 GetAll Methode von Controller bis Datenbank
+
+## Notizen 10.6.24
+appication-prod.properties
+
+Environment variablen in in prod properties verwenden db url und passwort
+
+Docker file -Dspring.profiles.active=prod
+
+In render Environment variablen für DB anlegen - gleicher name wie in application-prod.properties 
